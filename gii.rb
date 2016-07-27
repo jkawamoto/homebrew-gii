@@ -10,14 +10,14 @@
 class Gii < Formula
   desc ""
   homepage "https://github.com/jkawamoto/gii"
-  version "0.1.1"
+  version "0.1.2"
 
   if Hardware.is_64_bit?
-    url "https://github.com/jkawamoto/gii/releases/download/v0.1.1/gii_0.1.1_darwin_amd64.zip"
-    sha256 "66903b7d96ee4d73852197722634a52396c89989b28303862581527f79ecfc06"
+    url "https://github.com/jkawamoto/gii/releases/download/v0.1.2/gii_0.1.2_darwin_amd64.zip"
+    sha256 "d305cea161ef0e0d93319cb75d4b43815a3a09de690b354a5b5badec5359997f"
   else
-    url "https://github.com/jkawamoto/gii/releases/download/v0.1.1/gii_0.1.1_darwin_386.zip"
-    sha256 "a0a50ed8a165d426120c07440c13456a6c4d5a9cd3d429ed50ed11a6d19bc079"
+    url "https://github.com/jkawamoto/gii/releases/download/v0.1.2/gii_0.1.2_darwin_386.zip"
+    sha256 "c4368acb08c894ccb50b39eacda8ea6e95e92d9260339a3ead50dd073eb544eb"
   end
 
   def install
